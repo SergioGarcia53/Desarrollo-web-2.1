@@ -20,6 +20,8 @@
           <v-list-item prepend-icon="mdi-star" link to="/" color="warning" title="Pagina principal" value="paginaMain" rounded="xl"></v-list-item>
           <v-list-item prepend-icon="mdi-widgets" link to="/imagen" color="info" title="Pagina 1" value="pagina1" rounded="xl"></v-list-item>
           <v-list-item prepend-icon="mdi-check-circle" link to="/tabla" color="error" title="Pagina 2" value="pagina2" rounded="xl"></v-list-item>
+          <v-list-item prepend-icon="mdi-forum" link to="/crud" color="warning" title="Pagina 3" value="pagina3" rounded="xl"></v-list-item>
+
         </v-list>
       </v-navigation-drawer>
       
@@ -39,6 +41,10 @@
     <v-card-text>
       PAGINA 2 - TABLA
     </v-card-text>
+    <v-card-text>
+      PAGINA 3 - TABLA CRUD
+    </v-card-text>
+    <br>
   </v-card>
         <router-view></router-view>
       </v-main>
